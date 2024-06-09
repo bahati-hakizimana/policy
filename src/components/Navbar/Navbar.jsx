@@ -65,6 +65,7 @@ const Navbar = () => {
                 </li>
               ))}
               <Link to="/login" className="primary-btn">Login</Link>
+              <Link to="/admin" className="primary-btn">Dashboard</Link>
               <DarkMode />
             </ul>
           </nav>

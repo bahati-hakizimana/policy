@@ -33,11 +33,13 @@ function Sidebar() {
       path:"/admin/instutitions", 
       icon: <BiSolidInstitution />,
     },
-    { id: 4, name: 'Policies', path: '/admin/policies', icon: <MdOutlinePolicy /> },
-    { id: 5, name: 'Departments', path: '/admin/departiments', icon: <FcDepartment />
+    
+    { id: 4, name: 'Departments', path: '/admin/departiments', icon: <FcDepartment />
+    
     },
-    { id: 6, name: 'Pdf', path: '/admin/pdf', icon: <FaRegFilePdf /> },
-    { id: 7, name: 'Excel', path: '/admin/excel', icon: <FaFileExcel /> },
+    { id: 5, name: 'Policies', path: '/admin/policies', icon: <MdOutlinePolicy /> },
+    { id: 6, name: 'Coments', path: '/admin/coments', icon: <FaCommentDots /> },
+    // { id: 7, name: 'Excel', path: '/admin/excel', icon: <FaFileExcel /> },
   ];
 
   return (

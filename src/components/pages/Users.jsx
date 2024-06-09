@@ -5,10 +5,10 @@ function Users() {
   return (
     <>
       <h1 className='text-center text-black text-xl capitalize mb-4'>Users</h1>
-      <div className="flex justify-between mb-4">
+      {/* <div className="flex justify-between mb-4">
         <div></div>
         <Link to="/" className="px-4 py-2 bg-purple-400 text-white rounded-full hover:bg-gray-500 hover:text-white">Add user</Link>
-      </div>
+      </div> */}
 
       <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">

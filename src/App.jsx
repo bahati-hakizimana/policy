@@ -18,6 +18,7 @@ import Departiments from "./components/pages/Departiments.jsx";
 import Policies from "./components/pages/Policies.jsx";
 import Instutitions from "./components/pages/Instutitions.jsx";
 import Profil from "./components/pages/Profil.jsx";
+import Coments from "./components/pages/Coments.jsx";
 
 
 const App = () => {
@@ -52,6 +53,7 @@ const App = () => {
           <Route path="/admin/departiments"  element={<Departiments />} />
           <Route path="/admin/profile"  element={<Profil />} />
           <Route path="/admin/policies"  element={<Policies />} />
+          <Route path="/admin/coments"  element={<Coments />} />
           </Route>
           
         </Routes>
