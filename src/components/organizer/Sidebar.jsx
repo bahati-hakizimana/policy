@@ -25,20 +25,20 @@ function Sidebar() {
   };
 
   const Sidebar_Links = [
-    { id: 1, name: 'Dashboard', path: '/admin', icon: <MdDashboard /> },
-    { id: 2, name: 'Users', path: '/admin/users', icon: <FaUsers /> },
+    { id: 1, name: 'Dashboard', path: '/organizer', icon: <MdDashboard /> },
+    { id: 2, name: 'Users', path: '/organizer/users', icon: <FaUsers /> },
     {
       id: 3, 
       name: 'Institution',
-      path:"/admin/instutitions", 
+      path:"/organizer/instutitions", 
       icon: <BiSolidInstitution />,
     },
     
-    { id: 4, name: 'Departments', path: '/admin/departiments', icon: <FcDepartment />
+    { id: 4, name: 'Departments', path: '/organizer/departiments', icon: <FcDepartment />
     
     },
-    { id: 5, name: 'Policies', path: '/admin/policies', icon: <MdOutlinePolicy /> },
-    { id: 6, name: 'Coments', path: '/admin/coments', icon: <FaCommentDots /> },
+    { id: 5, name: 'Policies', path: '/organizer/policies', icon: <MdOutlinePolicy /> },
+    { id: 6, name: 'Coments', path: '/organizer/coments', icon: <FaCommentDots /> },
     // { id: 7, name: 'Excel', path: '/admin/excel', icon: <FaFileExcel /> },
   ];
 
